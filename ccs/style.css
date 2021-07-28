@@ -1,0 +1,460 @@
+body{
+    font-family: "Open Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    color: #333;
+    margin:0;
+    line-height: 1.5;
+}
+.inner img{
+    height: 70px;
+    margin-top: 20px; 
+      
+    
+}
+#global_nav{
+    max-width: 100%;
+  margin-top:-80px;
+}
+#global_nav ul{
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    display:flex;
+    justify-content: flex-end;
+   
+}
+#last{
+    float: right;
+    
+}
+
+    
+
+#first li{
+ 
+  border: 1px solid#000000;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}
+#first li a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+  display: block;
+  font-size: 16px;
+  
+}
+#first li a:hover{
+    color: #c90019;
+}
+#last{
+    margin-left: 100px;
+    padding-left: 0;
+    margin-top: 0;
+    
+}
+#last li{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 50px;
+    
+    
+}
+#last li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    font-size: 20px;
+}
+#last li a:hover{
+  color: #c90019;
+  
+}
+.poster{
+    max-width: 100%;
+    margin: 0;
+}
+.poster img{
+   width: 100%; 
+   position: relative;
+   height: 100%;
+
+}
+.poster p{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom:2em;
+    right: 2em;
+    font-weight: bolder;
+    color: #ffffff;
+
+}
+/*main-------------------
+------*/
+
+.course_jec{
+    padding: 35px 30px 45px 30px;
+    position: relative;
+    margin-top: 45px;
+    max-width: 1920px;
+   
+    
+}
+.course_jec h1{
+    background: url(../img/book.png)no-repeat;
+    background-size: 2em;
+    height: 60px;
+    margin: 0;
+    padding: 9px 0 7px 80px;
+    font-size: 30px;
+    color: red;
+    
+}
+.course_cnt{
+    padding: 35px 0 45px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.course_list{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: #c90019;
+    padding: 35px 30px 45px 30px;
+   
+    
+}
+.course_box{
+    padding: 0 10px;
+    background-color: #000000;
+    margin: 0 auto;
+    display: block;
+    
+    
+}
+.course_box h3{
+    color: #ffffff;
+    text-align: center;
+}
+.course_box p{
+    color: #ffffff;
+    text-align: center;
+}
+.point_jec{
+    padding: 35px 100px 45px ;
+    position: relative;
+    margin-top: 45px;
+
+}.point_jec h1{
+    background: url(../img/idel1.png)no-repeat;
+    background-size: 2em;
+    height: 60px;
+    margin: 0;
+    padding: 9px 0 7px 60px;
+    font-size: 30px;
+    color: red;
+}
+.item_body{
+    margin: 0 auto;
+}
+.sec_inner h3{
+    background-color:  red;
+    width: 200px;
+    padding: 1px 20px;
+    float: right;
+    position: relative;
+    right: 150px;
+}
+.sec_inner h3 p{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 28px;
+    text-align: center;
+
+}
+.sec_inner h4{
+    background-color: black;
+    width: 150px;
+    padding: 1px 20px;
+    float: right;
+    position: relative;
+    left: 200px;
+    top: 80px;
+
+}
+.sec_inner h4 p{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+.sec_inner h5 img{
+    position: relative;
+    width: 400px;
+    
+    
+}
+
+/*--------footer
+------------*/
+#login{
+    background-color: black;
+    width: 80%;
+    padding: 10px;
+    margin: 40px auto;
+    
+    
+}
+#login p{
+    background-color:red;
+    width: 160px;
+    margin: auto;
+    padding: 8px;
+}
+#login p a{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+#login a:hover{
+    color:black;
+}
+#utility{
+    
+    background-color: rgb(216, 211, 216);
+}
+
+#utility h5 img{
+    border-style: none;
+    width: 100px;
+}    
+#utility h5 span{
+    margin-left: 80px;
+    position: relative;
+    top: -30px;
+    font-size: 15px;
+    color: blue;
+}
+#utility ul{
+    list-style-type: none;
+    padding-left: 150px;
+    margin:0
+}
+.copy{
+    background-color: rgb(22, 21, 22);
+    text-align: center;
+    padding: 10px 3.1%;
+    margin: 0;
+    color : #ffffff;
+    font-size: 10px;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:750px){
+body{
+    font-family: "Open Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    color: #333;
+    margin:0;
+    line-height: 1.5;
+    box-sizing: inherit;
+}
+.inner img{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    
+   
+}
+.poster{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%
+}
+
+#first li{
+ background: url();
+ display: none;
+}
+#last li{
+    font-size: 60%;
+    display: none;
+}
+.inner img{
+    width: 50%;
+    height: 50%;   
+}
+
+
+
+.course_jec{
+    max-width: 100%;
+    
+    padding:0;
+}
+.course_jec h1{
+    font-size: 25px;
+    padding: 0 auto;
+
+}
+
+.course_list{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #c90019;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    padding:0;
+}
+.course_box{
+    width: 70%;
+    display: block;
+    padding: 0 auto;
+}
+.course_box img{
+    width: 100%;
+}
+
+
+
+
+.sec_inner{
+    margin-bottom: 56px;
+    padding:35px 30px 45px 30x;
+}
+.sec_inner h3{
+    width: 60%;
+    float: none;
+    position: relative;
+    left: 34px;
+    margin-top: 0;
+    
+}
+.sec_inner h3 p{
+    font-size: 80%;
+    
+}
+
+.sec_inner h4{
+    width: 60%;
+    float: none;
+    position: relative;
+    top: -20px;
+    left: 65px;
+    
+    
+}
+.sec_inner h4 p{
+    font-size: 80%;
+}
+.sec_inner h5 img{
+    background-color: none;
+    width: 80%;
+    padding: 0;
+}
+.point_jec{
+    max-width: 100%;
+    padding:0;
+}
+.point_jec h1{
+    font-size: 20px;
+    
+}
+
+
+.sec_inner  img{
+    width: 80%;
+    padding:35px 30px 45px 30px;
+    margin: 0 auto;
+    
+}
+.sec_inner a{
+   background-color:#ffffff;
+   padding: 10px 20px;
+   border: 1px solid#000000;
+   list-style-type: none;
+   text-decoration: none;
+   border-radius: 20px;
+   position: relative;
+   left: 90px;
+   
+}  
+.sec_inner a span{
+    color: blue;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+
+}
+.sec_inner a span:hover{
+    color: #c90019;
+}
+
+
+/*footer------------
+*/
+
+
+#login p{
+    background-color:red;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+#login p a{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+#login a:hover{
+    color:black;
+}
+#utility{
+    
+    background-color: rgb(216, 211, 216);
+}
+
+#utility h5 img{
+    border-style: none;
+    width: 100px;
+}    
+#utility h5 span{
+    margin-left: 80px;
+    position: relative;
+    top: -30px;
+    font-size: 15px;
+    color: blue;
+}
+#utility ul{
+    list-style-type: none;
+    padding-left: 30%;
+    margin: 0;
+   
+}
+.copy{
+    background-color: rgb(22, 21, 22);
+    text-align: center;
+    padding: 10px 3.1%;
+    margin: 0;
+    color : #ffffff;
+    font-size: 10px;
+
+}
+}
+

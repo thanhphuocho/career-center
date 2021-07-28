@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ゲームの求人票</title>
+  <link rel="stylesheet" href="ccs/4page.css">
+  <link rel="stylesheet" href="ccs/menu.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+
+<header>
+  <div class="inner">
+    <a href="file:///C:/Users/20aw0135/Desktop/%E3%82%B2%E3%83%BC%E3%83%A0%E6%B1%82%E4%BA%BA/TOP%E3%83%9A%E3%83%BC%E3%82%B8.html"><img src="img/ダウンロード.png " width="400px"  alt="ロゴ"></a>
+
+</div>
+
+
+<!-----habaga menu--->
+<div id="app">
+  <div class="hbg_btn" v-on:click='BtnToggle'>
+      <span class="line line_01" v-bind:class="{'btn_line01':ActiveBtn}"></span>
+      <span class="line line_02" v-bind:class="{'btn_line02':ActiveBtn}"></span>
+      <span class="line line_03" v-bind:class="{'btn_line03':ActiveBtn}"></span>
+  </div>
+<transition name="menu">
+<div class="menu"v-show="ActiveBtn">
+  <ul>
+      <li><a href="TOPページ.html">TOP </a></li>
+      <li><a href="https://www.jec.ac.jp/">入学情報</a></li>
+      <li><a href="https://www.jec.ac.jp/school-outline/">学園情報</a></li>
+      <li><a href="https://www.jec.ac.jp/school-outline/press/">企業へ</a></li>
+      <li><a href="https://www.jec.ac.jp/qanda/">よく質問</a></li>
+  </ul>
+</div>
+</transition>
+</div>
+<script src="js/script.js"></script>
+<!------------habaga menu-->
+
+
+<nav id="global_nav">
+<ul id="last">
+  <li><a href="https://www.jec.ac.jp/">入学情報</a></li>
+</ul>
+<ul id="first">
+<li><a href="https://www.jec.ac.jp/school-outline/">学園情報</a></li>
+  <li><a href="https://www.jec.ac.jp/school-outline/press/">企業へ</a></li>
+  <li><a href="https://www.jec.ac.jp/qanda/">よく質問</a></li>
+</ul>
+
+</nav>
+<div class="poster">
+    <a href=""><img src="img/cover.png" width="1920px" alt="main img"></a>
+</div>
+</div>
+</header>
+<!--main-->
+
+<article id="content"class="course_jec">
+  <section class="sec">
+    <h1>>>東京ゲームショウへ向けて</h1>
+    <h2><p>ゲームの祭典「TOKYO GAME SHOW」へ23年連続出展という高実績！<br>
+      「日本ゲーム大賞」でも多数の入賞を誇り、業界へのアピールチャンスは万全</p></h2>
+    <div id="sec1_img"><img src="img/img.png"></div>
+      <div class="course_list">
+      <ul>
+         <li><img src="img/field_img02_06.jpg"><br>訪れる来場者に操作方法や魅力を伝える劉さん</li>
+         <li><img src="img/field_img02_03.jpg"><br>小さなプレイヤーにも大人気！</li>
+         <li><img src="img/field_img02_05.jpg"><br>愛らしいロボットと懐かしさのある世界感が来場者を魅了</li>
+    </ul>
+     </div> 
+  </section>
+    <h3><p>学生たちが新しいゲームの開発<br>
+      だけでなく、訪れる来場者に操作方法<br>
+      や魅力を伝えるようになります</p></h3>
+</article>
+
+
+<article id="content2"class="award_jec">
+  <div class="course_list">
+  <section class="jec">
+    <h1>>>海外研修へ</h1>
+    <div id="sec1_img"><img src="img/field_img01.jpg"></div>
+    <h3><p>E3はアメリカの業界団体<br>
+      Entertainment-Software-Association（ESA）</p></h3>
+    <h4><p>の主催による米ロサンゼルスにて<br>
+      開催される世界最大のコンピュータゲーム<br>
+      関連の見本市。</p></h4>
+    </p>
+    <ul>
+      <li><img src="img/field_img01_04.jpg"><br>E3会場内でブーススタッフから説明を受ける学生たち</li>
+      <li><img src="img/field_img01_06.jpg"><br>映像技術教育の名門南カリフォルニア大学への視察</li>
+      <li><img src="img/field_img01_05.jpg"><br>世界トップ企業への就職率100％の教育機関Gnomonを視察</li>
+    </ul>
+  </div>
+  </section>
+    <h5><p>日本だけでなく、海外研修を通じて、<br>
+      海外のゲームの環境を研究して、<br>
+       日本のゲームへを開発するために、<br>
+       視野を広めるようになります。</p></h3>
+  
+</article>
+</body>
+<footer>
+  <div class="end">
+  <nav id="login">
+    <p><a href="https://sip4.jec.ac.jp/prx/000/http/localhost/login/index.html">求人票登録フォームはこちら</a></p>
+  </nav>
+  <nav id=utility>
+    <h5 class=logomart><img src="img/logomark.png"><span>問い合わせ</span></h5>
+  <ul>
+    <li>キャリアセンター</li>
+    <la>TEL：03-3369-2866(直通)<br>FAX：03-3363-7112<br>E-Mail： job@jec.ac.jp</la>
+    <li>教育部</li>
+    <la>TEL：03-3369-9333(直通)<br>FAX：03-3363-7505</la>
+    <li>広報部</li>
+    <la>TEL：03-3363-2985<br>FAX：03-3363-7107<br>E-Mail： jp@jec.ac.jp</la>
+    <li>専門職大学
+        設立準備室</li>
+    <la>TEL：03-3363-7775<br>FAX：03-3363-7765<br>E-Mail： u-press@jec.ac.jp</la>
+  </ul>
+  </nav>
+  <p class="copy"><small> © Japan Electronics College. All Rights Reserved.</small></p>
+</div>
+</footer>
+</html>
+</html>

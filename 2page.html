@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ゲームの求人票</title>
+  <link rel="stylesheet" href="ccs/2page.css">
+  <link rel="stylesheet" href="ccs/menu.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  
+</head>
+
+<body>
+<div class="wrapper">
+
+<header>
+  <div class="inner">
+    <a href=""><img src="img/ダウンロード.png " width="400px"  alt="ロゴ"></a>
+
+</div>
+
+
+
+<!-----habaga menu--->
+<div id="app">
+  <div class="hbg_btn" v-on:click='BtnToggle'>
+      <span class="line line_01" v-bind:class="{'btn_line01':ActiveBtn}"></span>
+      <span class="line line_02" v-bind:class="{'btn_line02':ActiveBtn}"></span>
+      <span class="line line_03" v-bind:class="{'btn_line03':ActiveBtn}"></span>
+  </div>
+<transition name="menu">
+<div class="menu"v-show="ActiveBtn">
+  <ul>
+      <li><a href="index.html" >TOP </a></li>
+      <li><a href="https://www.jec.ac.jp/">入学情報</a></li>
+      <li><a href="https://www.jec.ac.jp/school-outline/">学園情報</a></li>
+      <li><a href="https://www.jec.ac.jp/school-outline/press/">企業へ</a></li>
+      <li><a href="https://www.jec.ac.jp/qanda/">よく質問</a></li>
+  </ul>
+</div>
+</transition>
+</div>
+<script src="js/script.js"></script>
+<!------------habaga menu-->
+
+
+<nav id="global_nav">
+<ul id="last">
+  <li><a href="https://www.jec.ac.jp/">入学情報</a></li>
+</ul>
+<ul id="first">
+<li><a href="https://www.jec.ac.jp/school-outline/">学園情報</a></li>
+  <li><a href="https://www.jec.ac.jp/school-outline/press/">企業へ</a></li>
+  <li><a href="https://www.jec.ac.jp/qanda/">よく質問</a></li>
+</ul>
+
+</nav>
+<div class="poster">
+    <a href=""><img src="img/game2.png"  alt="main img"></a>
+</div>
+</div>
+</header>
+<!--main-->
+
+
+<article id="content"class="course_jec">
+  <div class="content course-cnt">
+  <h1 class="icon_notebook">>>ゲーム制作科学生作品<br>『Trickle』</h1>
+　<div class="course_list">
+  <section class="course_box">
+    <div class="course_img"><img src="img/ugocfj.png"width="200px" alt="ゲーム制作科学生作品『Trickle』"></div>
+     <h3 class="course_name"><p>ゲームタイトル：「Trickle」<br>
+        チーム名：「teamTrickle」<br>
+        ゲーム概要：</p></h3>
+     <h4> <p> 操作する主人公はバケツにくんだ水<br>
+      を時には氷に時には水蒸気と「状<br>
+      態遷移」を使って水を運んでゴール地<br>
+        点の花を咲かせていくゲームです。</p></h4>
+    
+  </section>
+  <section class="course_box">
+    <div class="course_img"><img src="img/nihon.jpg " alt="ゲーム制作科" ></div>
+    <h3><p class="course_name2">2018にゲーム制作科学生作品</h3>
+      <h4><p>『Trickle』が日本ゲーム大賞<br>
+        に優秀賞を受賞しました。</p></h4> 
+  
+  </section>
+  </div>
+</article>
+
+<article id="content"class="award_jec">
+  <h1 class="icon_idea">>>他の出展品</h1>
+  <h2><p>毎年東京ゲームショウにも出展し<br>
+    て高く評価された他の多くの作品があるのは<br>
+    aimracing2019,Manesius 58の野望, ..など</p></h2>
+  <div class="sec_inner">
+  <section class="sec">
+    <div id="sec1">
+      <h3>air racing2019</h3>
+      <div id="sec1_img"><img src="img/img_0236.jpg"  alt="air racing2019"></div>
+      <h4><p>東京ゲームショウ２０１９が開催される<br>
+      12作目のAimRacingシリーズが作られた</P>
+      <h5><p>さらにまたより多くを改善し、開発すること<br>
+      を試みしています。</p></h5>
+    </div>
+  </section>
+    <section class="sec">
+      <h3>Manesius 58の野望</h3>
+      <div id="sec2_img"><img src="img/manesius.png" alt="manesius"></div>
+      <h4><p>東京ゲームショウ2019にゲーム制作研</p></h4>
+      <h5><p>究科では学生作品を出展致します。</p></h5>
+    </section>
+  </div>
+</article>
+</body>
+<footer>
+  <div class="end">
+  <nav id="login">
+    <p><a href="https://sip4.jec.ac.jp/prx/000/http/localhost/login/index.html">求人票登録フォームはこちら</a></p>
+  </nav>
+  <nav id=utility>
+  <h5 class=logomart><img src="img/logomark.png"><span>問い合わせ</span></h5>
+  <ul>
+    <li>キャリアセンター</li>
+    <la>TEL：03-3369-2866(直通)<br>FAX：03-3363-7112<br>E-Mail： job@jec.ac.jp</la>
+    <li>教育部</li>
+    <la>TEL：03-3369-9333(直通)<br>FAX：03-3363-7505</la>
+    <li>広報部</li>
+    <la>TEL：03-3363-2985<br>FAX：03-3363-7107<br>E-Mail： jp@jec.ac.jp</la>
+    <li>専門職大学
+        設立準備室</li>
+    <la>TEL：03-3363-7775<br>FAX：03-3363-7765<br>E-Mail： u-press@jec.ac.jp</la>
+  </ul>
+  </nav>
+  <P class="copy"><small>Copyright © Japan Electronics College. All Rights Reserved.</small></P>
+</div>
+</footer>
+</html>

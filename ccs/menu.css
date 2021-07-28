@@ -1,0 +1,100 @@
+
+
+.hbg_btn{
+    width:72px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 11px;
+    z-index: 50;
+    cursor:pointer;
+    margin: auto;
+    
+}
+.hbg_btn .line{
+    position: absolute;
+    top: 7px;
+    width: 32px;
+    height: 4px;
+    background: #333333;
+    text-align: center;
+    ;
+}
+.hbg_btn .line_01{
+    top: 16px;   
+    left:20px ;
+    transition: 0.5s ease;
+}
+.hbg_btn .line_02{
+    top: 26px;
+    left:20px ;
+    transition: 0.5s ease;
+}
+.hbg_btn .line_03{
+    top: 37px;
+    left:20px;
+    transition: 0.5s ease;
+}
+.btn_line01{
+    transform: translateY(10px) rotate(-45deg);
+}
+.btn_line02{
+    opacity: 0;
+}
+.btn_line03{
+    
+    transform: translateY(-10px) rotate(45deg);
+}
+
+/*menu*/
+.menu-enter{
+    opacity: 0;
+}
+.menu-enter-to{
+    opacity: 1;
+}
+.menu-leave{
+    opacity: 1;
+}
+.menu-leave-to{
+    opacity: 0;
+}
+.menu-enter-active,.menu-leave-active{
+    transition: opacity 1s;
+}
+/*menu*/
+.menu{
+    background-color: rgb(206, 49, 49) ;
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 30;
+    
+    
+}
+.menu ul{
+    margin-top: 20%;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+.menu li{
+    list-style-type: none;
+    line-height:2;
+    padding: 10px;
+    
+}
+.menu a{
+    color: #666666;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    color: #ffffff;
+    
+}
+.menu li a:hover{
+    color: black;
+}
+

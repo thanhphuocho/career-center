@@ -1,0 +1,273 @@
+.inner img{
+    height: 70px;
+}
+#global_nav{
+    max-width: 100%;
+  margin-top:-80px;
+}
+#global_nav ul{
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    display:flex;
+    justify-content: flex-end;
+   
+}
+#last{
+    float: right;
+    
+}
+
+#first li{
+ 
+  border: 1px solid#000000;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+#first li a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+  display: block;
+  font-size: 16px;
+}
+#first li a:hover{
+    color: #c90019;
+}
+#last{
+    margin-left: 100px;
+    padding-left: 0;
+    margin-top: 0;
+}
+#last li{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 50px;
+    
+    
+}
+#last li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    font-size: 20px;
+}
+#last li a:hover{
+  color: #c90019;
+  
+}
+.poster{
+    max-width: 100%;
+    margin: 0;
+}
+.poster img{
+   width: 100%; 
+   position: relative;
+   height: 100%;
+
+}
+
+/*main-------------------
+------*/
+
+
+@media screen and (max-width:760px){
+body{
+    font-family: "Open Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    color: #333;
+    margin:0 auto;
+    line-height: 1.5;
+    
+}
+.inner img{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    width: 50%;
+    height: 50%;   
+}
+.poster{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    
+}
+
+#first li{
+ background: url();
+ display: none;
+}
+#last li{
+    font-size: 60%;
+    display: none;
+}
+    
+/*-----------main
+----------*/ 
+.course_jec{
+    padding: 35px 30px 10px 30px;
+    border-bottom: medium solid red;
+}
+.icon_idea{
+    padding: 15px 30px 20px 30px;
+    
+    border-top: medium solid black;
+}
+.sec_inner{
+    padding: 35px 30px 10px 30px;
+    border-bottom: medium solid red;
+    
+}
+.course_jec h1{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.course_jec img{
+   width: 100%
+}
+.course_jec h3{
+    background-color: red;
+    
+}
+.course_jec h3 p{
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: -35px;
+    margin-top: 50px;
+    font-size: 15px;
+    
+}
+.course_jec h4{
+    background-color: #000000;
+
+}
+.course_jec h4 p{
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+
+.award_jec{
+    padding: 0 auto;
+    margin: 0 auto;
+   
+}
+.award_jec h1{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 0;
+}
+.award_jec h2{
+    background-color: #c90019;
+    padding: 0;
+    
+}
+.award_jec h2 p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0;
+}
+
+.sec_inner h3{
+    text-align: center;
+
+}
+.sec_inner img{
+    width: 100%;
+}
+.sec_inner h4{
+    background-color: red;
+}
+.sec_inner h4 p{
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: -35px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.sec_inner h5 {
+    background-color: #000000;
+}
+.sec_inner h5 p{
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+ /*footer------------
+ */
+ .end {
+    border-top: medium solid black;
+}    
+    #login{
+        background-color: black;
+        width: 80%;
+        padding: 10px;
+        margin: 40px auto;
+
+    }
+    #login p{
+        background-color:red;
+        width: 70%;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    #login p a{
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 12px;
+
+    }
+    #login a:hover{
+        color:black;
+    }
+    #utility{
+        
+        background-color: rgb(216, 211, 216);
+    }
+    
+    #utility h5 img{
+        border-style: none;
+        width: 100px;
+    }    
+    #utility h5 span{
+        margin-left: 80px;
+        position: relative;
+        top: -30px;
+        font-size: 15px;
+        color: blue;
+    }
+    #utility ul{
+        list-style-type: none;
+        margin:0 auto;
+        padding-left: 30%;
+    }
+    .copy{
+        background-color: rgb(22, 21, 22);
+        text-align: center;
+        padding: 10px 3.1%;
+        margin: 0;
+        color : #ffffff;
+        font-size: 10px;
+    
+    }
+}
+    
