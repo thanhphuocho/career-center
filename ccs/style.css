@@ -376,10 +376,11 @@ body{
 
 .sec_inner  img{
     width: 80%;
-    padding:35px 30px 45px 30px;
+    display: block;
     margin: 0 auto;
     
 }
+
 .sec_inner a{
    background-color:#ffffff;
    padding: 10px 20px;
