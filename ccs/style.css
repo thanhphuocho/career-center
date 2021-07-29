@@ -314,9 +314,8 @@ body{
     width: 80%;
     margin: 0 auto;
     background-color: #c90019;
-    display: inline-block;
-    position: relative;
-    left: 20px;
+    display: block;
+    
     padding:0;
 }
 .course_box{
